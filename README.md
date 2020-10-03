@@ -65,6 +65,10 @@
 ### トッププレートとメイン基板をネジ止めする
 
 ## ファームウェア
-```
-make meEC:dfu
-```
+- リポジトリを取得
+  - https://github.com/sekigon-gonnoc/qmk_firmware/tree/dev/sekigon
+- atmel-dfu経由で書き込み
+  - リセットすると自動でブートローダが起動する
+  ```
+  make meEC:dfu
+  ```
