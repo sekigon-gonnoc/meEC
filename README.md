@@ -70,5 +70,5 @@
 - atmel-dfu経由で書き込み
   - リセットすると自動でブートローダが起動する
   ```
-  make meEC:dfu
+  make meec:dfu
   ```
