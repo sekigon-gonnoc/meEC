@@ -38,18 +38,19 @@
 
 |部品|数|入手先|
 |-|-|-|
-|12ピンコンスルーまたはピンヘッダ|2|
+|12ピンコンスルーまたはピンヘッダ|2|遊舎工房など|
 ||||
 |**BTOスイッチ用**|
-|ADELCPS 静電容量スイッチ4点セット|4|
+|ADELCPS 静電容量スイッチ4点セット|4キー分|https://yushakobo.jp/shop/a0500es-01-1/, https://btoshop.jp/2020/09/25/adelcps/mp
+|ラバードーム|必要分|https://yushakobo.jp/shop/a0500er-01-1/, https://btoshop.jp/2020/09/25/adelcpru/|
 ||||
 |**NIZ ECスイッチ用**|
-|NIZ EC Switch |4|
-|ラバードーム|必要分|
-|コニックリング|4|
+|NIZ EC Switch |4|https://www.nizkeyboard.com/collections/ornaments/products/2019-new-niz-ec-switch|
+|ラバードーム|必要分|https://www.nizkeyboard.com/collections/ornaments/products/ec-silicone-domes-35g-45g-55g, 上記ラバードームも可|
+|コニックリング|4|NIZ用のバラ売りはないのでBTOのセットなどから流用する|
 ||||
 |**LED対応版オプション**|||
-|YS-SK6812MINI-E|4|
+|YS-SK6812MINI-E|4|遊舎工房など|
 
 ## 組み立て手順
 ### EC microにType-Cコネクタをはんだ付けする
@@ -57,7 +58,8 @@
 ![](img/img2.JPG)
 
 ### (メイン基板にLEDをはんだ付けする)
-- 行によってLEDの向きが違うので注意してください
+- 行によってLEDの向きが違うので注意
+  - シルクに`/`マークがついている方にLEDの切り欠きを合わせる
 
 ### メイン基板にリセットスイッチをはんだ付けする
 ### メイン基板にEC microを取り付ける
@@ -67,9 +69,12 @@
 
 ### トッププレートにスペーサーをネジ止めする
 ### トッププレートにスイッチを取り付ける
+- BTOのスイッチの場合は切り欠きが横向きになるように嵌めて、ラバーシートの切り欠きにスイッチの突起を通す
+- ステムの向きに注意
 ![](img/img5.JPG)
 ![](img/img6.JPG)
 ### トッププレートとメイン基板をネジ止めする
+- トッププレートの穴にコンスルーが通っている（コンスルーを押しつぶしていない）ことを確認
 
 ## ファームウェア
 - リポジトリを取得
