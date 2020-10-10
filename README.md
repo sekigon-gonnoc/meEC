@@ -1,10 +1,10 @@
 # meEC
 
-|![](img/niz0.jpg) |![](img/niz1.jpg) |
+|![](img/niz0.JPG) |![](img/niz1.JPG) |
 |-|-|
 |NIZスイッチLEDなし|NIZスイッチLEDあり|
 |||
-|![](img/bto0.jpg) |![](img/bto1.jpg) |
+|![](img/bto0.JPG) |![](img/bto1.JPG) |
 |BTOスイッチLEDなし|BTOスイッチLEDあり|
 
 - [部品リスト](#部品リスト)
